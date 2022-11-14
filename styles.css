@@ -9,18 +9,45 @@
 h1, h2
 {
 color: lightblue;
+text-align: center;
+}
+h3
+{
+text-align: center;
+}
+body
+{
+	background-image: url("images/background.jpg");
 }
 
-div.center
+div
 {
-display: flex;
-justify-content: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
+
+.center {
+	//display: flex;
+	//text-align: center;
+	justify-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+.content {
+	max-width: 960px;
+	margin: auto;
+}
+
 
 img.logo
 {
-height: 50px;
-width: 50px;
+height: 80px;
+//width: 50px;
 }
 
 
@@ -53,8 +80,13 @@ background-color: #dddddd;
 
 iframe
 {
+height: 500px;
+width: 800px;
+margin: 0 auto;
+display:block;
 //background-color: gray;
 border:2px solid gray;
+text-align: center;
 }
 
 footer
@@ -101,13 +133,14 @@ div.gallery
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-border: 1px solid #ccc;
+//border: 1px solid #ccc;
 //padding-bottom: 40px;
 padding: 40px;
 }
 div.gallery:hover
 {
-border: 1px solid #777;
+//border: 1px solid #777;
+background-color: lightgray;
 }
 div.gallery figure
 {
@@ -124,5 +157,5 @@ div.gallery figure img
 {
 max-width: 240px;
 max-height: 240px;
-border-radius: 25%;
+border-radius: 10%;
 }
