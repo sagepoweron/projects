@@ -17,7 +17,7 @@ text-align: center;
 }
 body
 {
-	//background-image: url("images/background.jpg");
+//background-image: url("images/background.jpg");
 background-color: darkgray;
 }
 
@@ -57,8 +57,9 @@ height: 80px;
 //position: fixed;
 //top: 0;
 width: 100%;
+margin-bottom: 40px;
 //display: flex;
-//justify-content: center;
+//justify-content: space-between;
 border: 1px solid #e7e7e7;
 background-color: gray;//#333333;
 }
@@ -95,6 +96,7 @@ background-color: gray;//#333333;
 //padding: 8px;
 //text-align: center;
 //vertical-align: middle;
+margin-top: 40px;
 color: white;
 }
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
@@ -142,7 +144,7 @@ flex-wrap: wrap;
 justify-content: center;
 //border: 1px solid #ccc;
 //padding-bottom: 20px;
-//padding: 20px;
+padding: 20px;
 transition: width 1s;
 }
 div.gallery:hover
@@ -156,6 +158,8 @@ div.gallery figure
 //border: thin solid gray;
 //background-color: lightgray;
 //width: 320px;
+//margin: 10px;
+padding: 40px;
 border-radius: 20px;
 transition: background-color 1s, transform 1s;
 }
@@ -164,7 +168,7 @@ div.gallery figure:hover
 //border: 1px solid #777;
 background-color: lightgray;
 //border-radius: 10%;
-transform: scale(2);
+transform: scale(1.5);
 }
 div.gallery figcaption
 {
