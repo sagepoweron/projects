@@ -18,7 +18,8 @@ text-align: center;
 body
 {
 //background-image: url("images/background.jpg");
-background-color: darkgray;
+//background-color: darkgray;
+background-color: white;
 }
 
 div
@@ -60,8 +61,8 @@ width: 100%;
 margin-bottom: 40px;
 //display: flex;
 //justify-content: space-between;
-border: 1px solid #e7e7e7;
-background-color: gray;//#333333;
+//border: 1px solid #e7e7e7;
+//background-color: gray;//#333333;
 }
 .navigation a
 {
@@ -70,17 +71,29 @@ background-color: gray;//#333333;
 //display: block;
 //text-align: center;
 //background-color: #dddddd;
-color: white;
+
+//color: lightblue;
 padding: 16px;
 text-decoration: none;
+//transition: all 1s ease;
+
+//box-shadow: inset 0 0 0 0 #54b3d6;
+box-shadow: inset 0 0 0 0 lightblue;
+color: #54b3d6;
+//margin: 0 -.25rem;
+transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
 }
 .navigation a:hover:not(.active)
 {
-background-color: #111111;
+//background-color: black;
+box-shadow: inset 100px 0 0 0 lightblue;
+//box-shadow: inset 100px 0 0 0 #54b3d6;
+color: white;
 }
 .navigation a.active
 {
-background-color: #dddddd;
+//background-color: #dddddd;
+border-bottom: 4px solid lightblue;
 }
 
 footer
