@@ -1,5 +1,5 @@
-var iframe = document.getElementById("iframe_game");
-function LoadGame()
+var iframe = document.getElementById("iframe");
+function LoadOctosplat()
 {
 iframe.src = "https://sagepoweron.github.io/octosplat/";
 }

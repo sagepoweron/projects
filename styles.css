@@ -130,7 +130,7 @@ background-color: gray;//#333333;
 //padding: 8px;
 //text-align: center;
 //vertical-align: middle;
-margin-top: 400px;
+margin-top: 800px;
 color: white;
 }
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
@@ -143,11 +143,13 @@ color: white;
 
 iframe
 {
-height: 500px;
-width: 800px;
+	min-width: 800px;
+	min-height: 500px;
+/*height: 500px;
+width: 800px;*/
 margin: 0 auto;
 display:block;
-//background-color: gray;
+background-color: lightblue;
 border:2px solid gray;
 text-align: center;
 }
