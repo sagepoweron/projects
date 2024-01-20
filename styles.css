@@ -153,17 +153,6 @@ iframe {
 	/*background-image: url("images/farm/farming.gif");*/
 }
 
-iframe.zelda {
-	min-width: 960px;
-	min-height: 642px;
-	margin: 0 auto;
-	display: block;
-	background-color: lightgray;
-	border: 2px solid gray;
-	text-align: center;
-	/*background-image: url("images/farm/farming.gif");*/
-}
-
 /*Emphasized Words*/
 em
 {
