@@ -12,9 +12,9 @@
     <nav>
         <div class="navigation">
             <a href="index.html">Home</a>
+            <a class="active" href="farm.html">Farm</a>
             <a href="zelda.html">Zelda</a>
             <a href="zelda3d.html">Zelda 3D</a>
-            <a class="active" href="farm.html">Farm</a>
             <a href="octosplat.html">Octosplat</a>
             <a href="pokemon.html">Pokemon</a>
             <a href="other.html">Other</a>
@@ -30,15 +30,18 @@
         A game about farming.
     </div>
 
-<!--<h2>Development Build</h2>
-<div><button onclick="location.href='https://sagepoweron.github.io/farm/'" type="button">Play!</button></div>
-<div>This build has a memory leak and will crash at random times. Will be fixed in a later update.</div>
-<div>Controls: Arrow keys - move, A key - select, S key - roll while moving, Spacebar - pause</div>-->
+    <h2>Demo</h2>
+    <div><iframe id="iframe" title="Game" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+    <div><button onClick="document.getElementById('iframe').src = 'https://sagepoweron.github.io/farmdemo/'">Play</button></div>
+    <!--<h2>Development Build</h2>
+    <div><button onclick="location.href='https://sagepoweron.github.io/farm/'" type="button">Play!</button></div>
+    <div>This build has a memory leak and will crash at random times. Will be fixed in a later update.</div>
+    <div>Controls: Arrow keys - move, A key - select, S key - roll while moving, Spacebar - pause</div>-->
 
-<h2>Images</h2>
+    <h2>Images</h2>
     <div class="gallery">
 
-<figure>
+        <figure>
             <img src="images/farm/farming.gif" alt="Farming">
             <figcaption>Plant, grow, and harvest vegetables.</figcaption>
         </figure>
