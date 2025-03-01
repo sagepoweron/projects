@@ -143,11 +143,12 @@ footer
 
 iframe {
 	min-width: 800px;
-	min-height: 492px;
+	/*min-height: 492px;*/
+	min-height: 450px;
 	margin: 0 auto;
 	display: block;
 	background-color: lightgray;
-	border: 2px solid gray;
+	border: 1px solid black;
 	text-align: center;
 	/*background-image: url("images/farm/farming.gif");*/
 }
