@@ -27,7 +27,7 @@ function LoadImages(images, containerId)
     }*/
 }
 
-window.onclick = () => alert('Welcome!');
+//window.onclick = () => alert('Welcome!');
 
 //$("#iframe").contents().find("canvas").css('cursor', 'default');
 
