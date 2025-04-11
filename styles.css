@@ -14,6 +14,7 @@ body
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 	min-height: 100vh;
 }
 .content
@@ -183,4 +184,20 @@ button:hover
 {
 	background-color: #54b3d6;
 	color: white;
+}
+
+.paintBrush {
+    cursor: url("images/paintBrush.png"), auto;
+}
+
+.rounded
+{
+	padding-left: 16px;
+	padding-right: 16px;
+
+	border: 2px solid transparent;
+	background: linear-gradient(white, rgb(255, 255, 255)) padding-box,
+	radial-gradient(circle, #2193b0, #6dd5ed) border-box;
+	
+	border-radius: 32px;
 }
