@@ -48,8 +48,9 @@ height: 80px;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	height: 40px;
-	width: 100px;
+
+	padding: 8px;
+	border: 2px solid lightblue;
 }
 .inactivePageButton
 {
@@ -61,8 +62,9 @@ height: 80px;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	height: 40px;
-	width: 100px;
+	border: 2px solid lightblue;
+
+	padding: 8px;
 }
 .inactivePageButton:hover
 {
@@ -110,31 +112,40 @@ iframe {
 
 
 .gallery {
+	/*display: grid;
+	grid-template-columns: 1fr 1fr 1fr;*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	transition: width 1s;
-	border: 1px dashed lightgray;
+	background-color: whitesmoke;
+	border: 1px solid silver;
+	border-radius: 16px;
+	padding: 8px;
 }
 .gallery figure
 {
-	padding: 20px;
-	border-radius: 20px;
-	transition: background-color 1s, transform 1s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 8px;
+	padding: 8px;
+	border-radius: 16px;
+	border: 1px solid silver;
+	background-color: white;
+	/*transition: background-color 1s, transform 1s;*/
 }
-.gallery figure:hover
+/*.gallery figure:hover
 {
 	background-color: lightgray;
 	transform: scale(1.25);
-}
+}*/
 /*div.gallery figcaption
 {
 }*/
 .gallery figure img
 {
-	max-width: 240px;
-	max-height: 240px;
-	border-radius: 20px;
+	max-width: 200px;
+	/*border-radius: 20px;*/
 	/*transition: transform 1s;*/
 }
 /*div.gallery figure img:hover
@@ -191,6 +202,12 @@ button:hover
 }
 
 .rounded
+{
+	padding: 8px;
+	border: 2px solid lightblue;
+}
+
+.rounded2
 {
 	padding-left: 16px;
 	padding-right: 16px;
